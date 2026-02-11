@@ -1,1 +1,139 @@
+
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Digital Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #111;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background: #222;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ff4d6d;
+    }
+
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      border-bottom: 2px solid #ff4d6d;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .project {
+      background: white;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    button {
+      background: #ff4d6d;
+      border: none;
+      padding: 10px 15px;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #e63950;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Your Name</h1>
+    <p>Web Developer | Designer | Student</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm a passionate web developer who loves building creative and responsive websites.</p>
+  </section>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Python</li>
+      <li>JavaScript</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Project 1</h3>
+      <p>Short description of your project.</p>
+      <button>View Project</button>
+    </div>
+
+    <div class="project">
+      <h3>Project 2</h3>
+      <p>Short description of your project.</p>
+      <button>View Project</button>
+    </div>
+
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: yourname@email.com</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Your Name | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
